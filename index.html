@@ -3,98 +3,129 @@
 <head>
     <meta charset="UTF-8">
     <title>Course HTML</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-<h1>Джон Сноу</h1>
-<img src="./10155427_jon-snow.jpg" alt="Jon Snow" width="250px">
-<p>Незаконнорожденный сын (бастард) верховного лорда <strong>Севера</strong> <em><strong>Эддарда Старка.</strong></em>
-</p>
-<hr>
-<p><strong>Список социальных сетей</strong></p>
-<a href="https://google.com" target="_blank">Telegram</a>|
-<a href="https://google.com" target="_blank">Instagram</a>|
-<a href="https://google.com" target="_blank">VK</a>
+<div class="container">
+    <div class="info">
 
-<h3>Мои хобби</h3>
-<ul>
-    <li>Езда верхом</li>
-    <li>Фехтование</li>
-    <li>Стрельба из лука</li>
-</ul>
+        <img src="./10155427_jon-snow.jpg" alt="Jon Snow" width="250px">
 
-<h3>Прозвище</h3>
-<ul>
-    <li>Лорд Сноу</li>
-    <li>Лорд Ворона</li>
-    <li>Бастард из Винтерфелла</li>
-    <li>Чёрный бастард со Стены</li>
-    <li>Белый волк</li>
-</ul>
+        <div class="info-text">
 
-<h3>Должность</h3>
-<ul>
-    <li>Лорд-командующий Ночного Дозора</li>
-    <li>Лорд Винтерфелла и Король Севера</li>
-</ul>
+            <h1>Джон Сноу</h1>
+            <p>Незаконнорожденный сын (бастард) верховного лорда Севера <em><strong>Эддарда Старка.</strong></em>
+            </p>
+            <hr>
+            <p><strong>Список социальных сетей</strong></p>
+            <a href="https://google.com" target="_blank">Telegram</a>|
+            <a href="https://google.com" target="_blank">Instagram</a>|
+            <a href="https://google.com" target="_blank">VK</a>
 
-<h3>Род занятий</h3>
-<ul>
-    <li>шпион</li>
-    <li>оруженосец</li>
-    <li>солдат</li>
-    <li>правитель</li>
-</ul>
+        </div>
 
-
-<h1>Опыт работы</h1>
-<table >
-    <thead>
-    <tr>
-        <th>Название  </th>
-        <th>Должность  </th>
-
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-        <td>Винтерфэлл</td>
-        <td>Бастард</td>
-
-    </tr>
-    <tr>
-        <td>Ночной дозор</td>
-        <td>Стюарт</td>
-
-    </tr>
-    <tr>
-        <td>Ночной дозор</td>
-        <td>Лорд командующий</td>
-
-    </tr>
-    </tbody>
-</table>
-
-
-
-<div>
-    <h1>Связаться со мной</h1>
-    <div>
-        <label for="text1">Ваше имя - </label>
-        <input type="text" id="text1" value="enter your name">
     </div>
-    <div>
-        <label for="email1">Ваш email - </label>
-        <input type="text" id="email1" value="enter your email">
+
+    <div class="card1">
+        <h3>Мои хобби</h3>
+        <ul>
+            <li>Езда верхом</li>
+            <li>Фехтование</li>
+            <li>Стрельба из лука</li>
+        </ul>
     </div>
-    <div>
-        <label for="message1">Сообщение :</label>
-        <br>
-        <textarea name="" id="message1" cols="25" rows="5" placeholder="введите ваше сообщение :"></textarea>
-    </div>
-    <button type="submit">Отправить !</button>
+
+<div class="card2">
+    <h3>Прозвище</h3>
+    <ul>
+        <li>Лорд Сноу</li>
+        <li>Лорд Ворона</li>
+        <li>Бастард из Винтерфелла</li>
+        <li>Чёрный бастард со Стены</li>
+        <li>Белый волк</li>
+    </ul>
 </div>
+
+<div class="card3">
+    <h3>Должность</h3>
+    <ul>
+        <li>Лорд-командующий Ночного Дозора</li>
+        <li>Лорд Винтерфелла и Король Севера</li>
+    </ul>
+</div>
+
+<div class="card4">
+    <h3>Род занятий</h3>
+    <ul>
+        <li>шпион</li>
+        <li>оруженосец</li>
+        <li>солдат</li>
+        <li>правитель</li>
+    </ul>
+</div>
+
+<div class="card5">
+    <h2>Опыт работы</h2>
+    <table >
+        <!--<thead>
+        <tr>
+            <th>Название  </th>
+            <th>Должность  </th>
+
+        </tr>
+        </thead>-->
+        <tbody>
+        <tr>
+            <td>Винтерфэлл</td>
+            <td>Бастард</td>
+            <td>300 Э.З</td>
+
+        </tr>
+        <tr>
+            <td>Ночной дозор</td>
+            <td>Стюарт</td>
+            <td>301 Э.З</td>
+
+        </tr>
+        <tr>
+            <td>Ночной дозор</td>
+            <td>Лорд командующий</td>
+            <td>303 Э.З</td>
+
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+
+
+
+    <form class="card6">
+        <h2>Связаться со мной</h2>
+
+        <div class="form-row">
+            <div class="form-group">
+                <label for="text1">Ваше имя - </label>
+                <input type="text" id="text1" value="enter your name">
+            </div>
+            <div class="form-group">
+                <label for="email1">Ваш email - </label>
+                <input type="text" id="email1" value="enter your email">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="message1">Сообщение :</label>
+            <textarea name="" id="message1" cols="25" rows="5" placeholder="введите ваше сообщение :"></textarea>
+        </div>
+        <button type="submit" class="btn">Отправить !</button>
+    </form>
+
+
+</div>
+
 
 
 </body>
